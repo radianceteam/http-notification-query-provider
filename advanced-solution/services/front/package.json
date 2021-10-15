@@ -1,0 +1,40 @@
+{
+  "name": "front",
+  "version": "5.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@http-notifs/logger": "^1.0.0",
+    "@http-notifs/validation": "^1.0.0",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/material": "latest",
+    "axios": "^0.23.0",
+    "clsx": "latest",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "swr": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.4.1"
+  }
+}

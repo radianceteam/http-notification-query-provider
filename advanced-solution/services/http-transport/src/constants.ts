@@ -1,0 +1,2 @@
+export const DNS_VALIDATION_LIMIT = 10;
+export const MESSAGE_SEND_TRY_LIMIT = 144;

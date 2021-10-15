@@ -1,0 +1,15 @@
+http-notifs.xyz
+
+handle /service {
+  uri strip_prefix /service
+  reverse_proxy debot-handler:3000
+}
+
+handle /api/* {
+  uri strip_prefix /api
+  reverse_proxy user-handler:3000
+}
+
+handle * {
+  reverse_proxy front:3000
+}
