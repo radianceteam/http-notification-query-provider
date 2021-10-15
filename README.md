@@ -10,4 +10,4 @@ In order to ensure the anonymity of blockchain users, a separation has been made
 
    * Notification Providers - knows where to send (HTTP REST API). It doesn’t have any information about the data. It receives and sends the data encrypted
 
-## We suggest two different solutions that can be tested.
+## We suggest two different solutions that can be tested. They are uploaded to their respective folders inside this repository.
