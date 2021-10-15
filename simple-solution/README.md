@@ -3,3 +3,16 @@
 _https://github.com/radianceteam/http-notification-query-provider/blob/main/simple%20notifs%20architecture.jpeg_
 
 All events on the servers are saved to the database for the possibility of logging and re-sending the message.
+
+# Instructions:
+
+1. At first install all dependencies and let [Lerna](https://lerna.js.org/) to link cross-dependencies.
+
+```sh
+npm install
+```
+2. Start server
+
+```sh
+node index.js
+```
